@@ -251,7 +251,7 @@
   width: 539px;
   margin: 0 auto;
 }
-.food-title h2 {
+.h2 {
   color: rgb(16, 16, 16);
   font-family: Work Sans;
   font-size: 32px;
@@ -260,7 +260,7 @@
   margin: 16px 0px;
   gap: 24;
 }
-.food-title p {
+.p {
   opacity: 0.6;
   color: rgb(16, 16, 16);
   font-family: Work Sans;
