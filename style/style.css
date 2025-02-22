@@ -225,8 +225,67 @@
   width: 171px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
   margin: 32px auto;
   height: 40px;
+}
+
+/* food section */
+.food {
+  display: flex;
+}
+.food-container {
+  max-width: 643px;
+}
+.food-container img {
+  width: 100%;
+}
+
+.food-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 539px;
+  margin: 0 auto;
+}
+.food-title h2 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  margin: 16px 0px;
+  gap: 24;
+}
+.food-title p {
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  margin: 16px 0px;
+}
+.follow-1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  width: 500px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  padding: 10px 6px 10px 6px;
+}
+.l2{
+ justify-content: space-around;
 }
